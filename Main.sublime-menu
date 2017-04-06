@@ -1,0 +1,58 @@
+[{
+	"caption": "Tools",
+	"mnemonic": "T",
+	"id": "tools",
+	"children": [{
+		"id": "lessbuilder",
+		"caption": "Less Builder",
+		"children": [
+			{ "id": "lessbuilder", "caption": "Build Less", "command": "less_builder" },
+		]
+	}]
+},
+{
+	"id": "preferences",
+	"children":
+	[{
+		"caption": "Package Settings",
+		"id": "package-settings",
+		"children":
+		[{
+			"caption": "Less Builder",
+			"children":
+			[{
+				"caption": "Settings – Default",
+				"command": "open_file",
+				"args":
+				{
+					"file": "${packages}/LessBuilder/LessBuilder.sublime-settings"
+				}
+			},
+			{
+				"caption": "Settings – User",
+				"command": "open_file",
+				"args":
+				{
+					"file": "${packages}/User/LessBuilder.sublime-settings"
+				}
+			},
+			{ "caption": "-" },
+			{
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/LessBuilder/Default (Windows).sublime-keymap",
+					"platform": "Windows"
+				},
+				"caption": "Key Bindings – Default"
+			},
+			{
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/User/Default (Windows).sublime-keymap",
+					"platform": "Windows"
+				},
+				"caption": "Key Bindings – User"
+			}]
+		}]
+	}]
+}]

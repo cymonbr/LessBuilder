@@ -1,0 +1,5 @@
+{
+	"onSave": true, //need execute comando for build after save
+	"minify": true, //set build minify or traditional
+	"prefixMinify": ".min" //not minify this is null
+}

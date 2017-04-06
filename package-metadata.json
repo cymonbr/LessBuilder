@@ -1,0 +1,6 @@
+{
+	"description":"Less Builder for Sublime Text allow you use build less in nodeJS -- compatible with ST2 and ST3", 
+	"dependencies":[], "sublime_text":"*", 
+	"version":"1.0.0", 
+	"platforms":["*"], "url":"https: //github.com/cymon/LessBuilder"
+}
